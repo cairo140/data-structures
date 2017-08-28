@@ -15,4 +15,13 @@ BinarySearchTree.prototype.depthFirstTraverse = function(callback) {
   }
 };
 
- module.exports = BinarySearchTree;
+BinarySearchTree.prototype.breadthFirstTraverse = function(callback) {
+};
+
+BinarySearchTree.prototype.search = function(key) {
+};
+
+BinarySearchTree.prototype.insert = function(key, value) {
+};
+
+module.exports = BinarySearchTree;
