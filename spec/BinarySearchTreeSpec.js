@@ -51,13 +51,13 @@ describe('Binary Search Tree', function() {
       buildSimpleTestTree();
       const testKeyValues = [20, 75, 13, 43, 62, 65];
       testKeyValues.forEach(testValue => {
-        expect(binarySearchTree.search(testValue).to.be.equal(testValue));
+        expect(binarySearchTree.search(testValue)).to.be.equal(testValue);
       });
     });
 
     it('should return undefined if the key being searched for does not exist in the binary tree', function() {
       buildSimpleTestTree();
-      expect(binarySearchTree.search(100).to.be.equal(undefined));
+      expect(binarySearchTree.search(100)).to.be.equal(undefined);
     });
   });
 });

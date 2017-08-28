@@ -19,6 +19,7 @@ BinarySearchTree.prototype.breadthFirstTraverse = function(callback) {
 };
 
 BinarySearchTree.prototype.search = function(key) {
+  return 0;
 };
 
 BinarySearchTree.prototype.insert = function(key, value) {
