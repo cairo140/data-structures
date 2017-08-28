@@ -40,7 +40,7 @@ describe('Binary Search Tree', function() {
       const log = function(node) {
         traversedNodes.push(node.key);
       };
-      binarySearchTree.depthFirstTraverse(log);
+      binarySearchTree.breadthFirstTraverse(log);
       const expected = '50 20 75 13 43 62 65'
       expect(traversedNodes.join(' ')).to.be.equal(expected);
     });
